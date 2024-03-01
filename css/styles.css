@@ -37,12 +37,15 @@ h6 {
 body {
     background-color:rgb(0, 0, 0);
     color: ghostwhite;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 a {
     color: red;
-    font-size: 25px;
+    font-size: 23px;
+    border: solid red 2px;
+    padding: 3px;
+
 }
 li {
     font-size: 20px;
