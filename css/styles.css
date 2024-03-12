@@ -1,55 +1,58 @@
 h1 {
-    color:rgb(0, 200, 214);
-    font-size: 45px;
+    color:rgb(74, 95, 214);
+    font-size: 50px;
     text-align: center;
     font-style: italic;
 }
 
 h2 {
-    color:rgb(0, 200, 214);
-    font-size: 25px;
+    color:rgb(74, 95, 214);
+    font-size: 30px;
     font-style: italic;
 }
 
 h3 {
-    color:rgb(0, 200, 214);
-    font-size: 25px;
+    color:rgb(74, 95, 214);
+    font-size: 30px;
     font-style: italic;
 }
 
 h4 {
-    color:rgb(0, 200, 214);
-    font-size: 25px;
+    color:rgb(74, 95, 214);
+    font-size: 30px;
     font-style: italic;
 }
 
 h5 {
-    color:rgb(0, 200, 214);
-    font-size: 25px;
+    color:rgb(74, 95, 214);
+    font-size: 30px;
     font-style: italic;
+    text-align: center;
 }
 
 h6 {
-    color:rgb(0, 200, 214);
-    font-size: 17px
+    color:rgb(74, 95, 214);
+    font-size: 20px
 }
 
 body {
-    background-color: rgb(218, 254, 255);
+    background-color: rgb(166, 189, 240);
     color: black;
-    font-size: 19px;
+    font-size: 22px;
 }
 
 a {
-    color:rgb(0, 200, 214);
-    font-size: 23px;
-    border: solid rgb(0, 200, 214) 2px;
+    color:rgb(74, 95, 214);
+    font-size: 28px;
+    border: solid rgb(74, 95, 214) 2px;
     padding: 3px;
 
 }
 li {
     font-size: 20px;
+    text-align: center;
 }
+
 
 div{
     padding: 15px;
@@ -57,13 +60,39 @@ div{
 }
 
 img {
-    width: 1100px;
-    height: 700px;
+    width: 1000px;
+    height: 600px;
+    display: block;
+    margin: auto;
+    size: 20px;
 
 }
 
 iframe {
     width: 700px;
     height: 400px;
+    display: block;
+    margin: auto;
+    size: 20px;
+    padding: 10px;
+}
 
+span{
+    font-weight: bold;
+    color: rgb(42, 57, 138);
+}
+
+#id1{
+    border: solid 2px rgb(74, 95, 214);
+    border-radius: 10px;
+    background-color: rgba(156, 149, 255, 0.322);
+}
+
+.imagens{
+    width: 380px;
+    height: 230px;
+    padding: 20px;
+    display: block;
+    margin: auto;
+    size: 20px;
 }
