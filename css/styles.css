@@ -25,7 +25,7 @@ h4 {
 
 h5 {
     color:rgb(74, 95, 214);
-    font-size: 30px;
+    font-size: 35px;
     font-style: italic;
     text-align: center;
 }
@@ -44,7 +44,7 @@ body {
 
 a {
     color:rgb(74, 95, 214);
-    font-size: 28px;
+    font-size: 25px;
     border: solid rgb(74, 95, 214) 2px;
     padding: 3px;
 
@@ -76,7 +76,7 @@ iframe {
     margin: auto;
     size: 20px;
     padding: 10px;
-    border: solid 2px rgb(42, 57, 138);
+    border: solid 3px rgb(42, 57, 138);
 }
 
 span{
@@ -85,6 +85,18 @@ span{
 }
 
 #id1{
+    border: solid 2px rgb(74, 95, 214);
+    border-radius: 10px;
+    background-color: rgba(156, 149, 255, 0.322);
+}
+
+#id2{
+    border: solid 2px rgb(74, 95, 214);
+    border-radius: 10px;
+    background-color: rgba(156, 149, 255, 0.322);
+}
+
+#id3{
     border: solid 2px rgb(74, 95, 214);
     border-radius: 10px;
     background-color: rgba(156, 149, 255, 0.322);
