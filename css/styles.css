@@ -40,11 +40,7 @@ body {
     background-color: rgb(166, 189, 240);
     color: black;
     font-size: 22px;
-    background-image: url('https://i.pinimg.com/564x/67/fd/1a/67fd1abd991e005b069e2b96f2c3ad45.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-  
+
 }
 
 a {
@@ -52,6 +48,7 @@ a {
     font-size: 25px;
     border: solid rgb(74, 95, 214) 2px;
     padding: 3px;
+    border-radius: 10px;
 
 }
 li {
@@ -115,6 +112,15 @@ span{
     display: block;
     margin: auto;
     size: 20px;
+}
+
+a:hover {
+    color: white;
+}
+
+.paginas{
+    display: inline-block;
+
 }
 
 
