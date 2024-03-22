@@ -3,6 +3,8 @@ h1 {
     font-size: 50px;
     text-align: center;
     font-style: italic;
+    margin-top: 90px;
+
 }
 
 h2 {
@@ -28,6 +30,8 @@ h5 {
     font-size: 35px;
     font-style: italic;
     text-align: center;
+    margin-top: 90px;
+
 }
 
 h6 {
@@ -63,8 +67,8 @@ div{
 }
 
 img {
-    width: 1000px;
-    height: 600px;
+    width: 1400px;
+    height: 700px;
     display: block;
     margin: auto;
     size: 20px;
@@ -72,40 +76,36 @@ img {
 }
 
 iframe {
-    width: 400px;
-    height: 250px;
+    width: 1000px;
+    height: 380px;
     display: block;
     margin: auto;
     size: 20px;
     padding: 10px;
-    border: solid 3px rgb(42, 57, 138);
+    
 }
 
-span{
+span {
     font-weight: bold;
     color: rgb(42, 57, 138);
 }
 
-#id1{
-    border: solid 2px rgb(74, 95, 214);
-    border-radius: 10px;
-    background-color: rgba(156, 149, 255, 0.322);
+#id4 {
+    width: 1400px;
+    height: 700px;
+    display: block;
+    margin: auto;
+    size: 20px;
+    border: solid 5px rgb(74, 95, 214);
+    padding: 15px;
 }
 
-#id2{
-    border: solid 2px rgb(74, 95, 214);
-    border-radius: 10px;
-    background-color: rgba(156, 149, 255, 0.322);
+#id5 {
+    margin-top: 100px;
 
 }
 
-#id3{
-    border: solid 2px rgb(74, 95, 214);
-    border-radius: 10px;
-    background-color: rgba(156, 149, 255, 0.322);
-}
-
-.imagens{
+.imagens {
     width: 380px;
     height: 230px;
     padding: 20px;
@@ -120,15 +120,43 @@ a:hover {
 
 .paginas{
     display: inline-block;
+    padding: 15px;
+    font-style: italic;
+
 
 }
 
 nav a{
     margin-left: 10px;
+    font-size: 20px;
+    border: solid 2px;
+
+    
 }
 nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 28px;
+    font-weight: bold;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(149, 155, 235);
+    
+}
+
+#id1 {
+    border: solid 2px rgb(74, 95, 214);
+    border-radius: 10px;
+    background-color: rgba(156, 149, 255, 0.322);
+}
