@@ -104,6 +104,7 @@ span {
     size: 20px;
     border: solid 5px rgb(74, 95, 214);
     padding: 15px;
+    border-radius: 30px;
 }
 
 
@@ -111,16 +112,19 @@ span {
     width: 800px;
     height: 500px;
     border: solid 5px rgb(74, 95, 214);
+    border-radius: 20px;
 
 }
 
 .imagens {
-    width: 400px;
-    height: 250px;
+    width: 450px;
+    height: 300px;
     padding: 20px;
     display: block;
     margin: auto;
     size: 20px;
+    border-radius: 55px;
+
 }
 
 a:hover {
