@@ -1,0 +1,108 @@
+h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 60px;
+    
+}
+
+h2 {
+    color: black;
+    font-size: 35px;
+    font-style: italic;
+}
+
+h3 {
+    color: black;
+    font-size: 35px;
+    font-style: italic;
+}
+
+h4 {
+    color: black;
+    font-size: 35px;
+    font-style: italic;
+}
+
+h5 {
+    color:rgb(74, 95, 214);
+    font-size: 45px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 90px;
+
+}
+
+
+body {
+    background-color: rgba(58, 58, 58, 0.521);
+    color: black;
+    font-size: 23px;
+    text-align: center;
+
+}
+
+img {
+    max-width: 320px;
+    min-width: 320px;
+    max-height: 320px;
+    min-height: 320px;
+    display: block;
+    margin: auto;
+    size: 20px;
+    border-radius: 50px;
+    
+}
+
+span {
+    font-weight: bold;
+    color: black;
+}
+
+a {
+    color:rgb(74, 95, 214);
+    font-size: 25px;
+    border: solid rgb(74, 95, 214) 2px;
+    padding: 3px;
+    border-radius: 10px;
+
+}
+li {
+    font-size: 23px;
+    padding: 5px;
+
+}
+
+
+div{
+    padding: 15px;
+
+}
+
+
+iframe {
+    width: 1000px;
+    height: 380px;
+    display: block;
+    margin: auto;
+    size: 20px;
+    padding: 10px;
+    
+}
+
+nav a{
+    margin-left: 10px;
+    font-size: 20px;
+    border: solid 2px;
+    margin-top: 12px;
+    
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    
+}
