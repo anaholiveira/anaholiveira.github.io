@@ -3,7 +3,7 @@ h1 {
     font-size: 50px;
     text-align: center;
     font-style: italic;
-    margin-top: 60px;
+    margin-top: 90px;
     
 }
 
@@ -15,8 +15,9 @@ h2 {
 
 h3 {
     color: black;
-    font-size: 35px;
+    font-size: 40px;
     font-style: italic;
+    margin-top: 90px;
 }
 
 h4 {
@@ -43,11 +44,16 @@ body {
 
 }
 
+div{
+    padding: 15px;
+
+}
+
 img {
-    max-width: 320px;
-    min-width: 320px;
-    max-height: 320px;
-    min-height: 320px;
+    max-width: 310px;
+    min-width: 310px;
+    max-height: 310px;
+    min-height: 310px;
     display: block;
     margin: auto;
     size: 20px;
@@ -88,21 +94,5 @@ iframe {
     margin: auto;
     size: 20px;
     padding: 10px;
-    
-}
-
-nav a{
-    margin-left: 10px;
-    font-size: 20px;
-    border: solid 2px;
-    margin-top: 12px;
-    
-}
-
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: black;
     
 }
