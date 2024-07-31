@@ -1,9 +1,9 @@
 h1 {
     color: black;
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
     font-style: italic;
-    margin-top: 90px;
+    margin-top: 5px;
     
 }
 
@@ -15,25 +15,18 @@ h2 {
 
 h3 {
     color: black;
-    font-size: 40px;
+    font-size: 30px;
     font-style: italic;
-    margin-top: 90px;
+    margin-top: 5px;
 }
 
 h4 {
     color: black;
-    font-size: 35px;
+    font-size: 30px;
     font-style: italic;
+    margin-top: 5px;
 }
 
-h5 {
-    color:rgb(74, 95, 214);
-    font-size: 45px;
-    font-style: italic;
-    text-align: center;
-    margin-top: 90px;
-
-}
 
 
 body {
@@ -41,24 +34,24 @@ body {
     color: black;
     font-size: 23px;
     text-align: center;
+    width: calc(100% - 30px);
+    padding: 10px;
 
 }
 
 div{
-    padding: 15px;
+    padding: 10px;
 
 }
 
-img {
-    max-width: 310px;
-    min-width: 310px;
-    max-height: 310px;
-    min-height: 310px;
+img{
+    max-width: 553px;
+    border-radius: 10px;
     display: block;
     margin: auto;
-    size: 20px;
-    border-radius: 50px;
-    
+    width: calc(100% - 20px);
+    height: 100%;
+    box-shadow: 0 8px 10px rgb(197, 190, 190); ;
 }
 
 span {
@@ -66,33 +59,7 @@ span {
     color: black;
 }
 
-a {
-    color:rgb(74, 95, 214);
-    font-size: 25px;
-    border: solid rgb(74, 95, 214) 2px;
-    padding: 3px;
-    border-radius: 10px;
-
-}
 li {
     font-size: 23px;
     padding: 5px;
-
-}
-
-
-div{
-    padding: 15px;
-
-}
-
-
-iframe {
-    width: 1000px;
-    height: 380px;
-    display: block;
-    margin: auto;
-    size: 20px;
-    padding: 10px;
-    
 }
