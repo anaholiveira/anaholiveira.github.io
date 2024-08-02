@@ -3,8 +3,6 @@
     --cor2: #fff;
 }
 
-
-
 h1 {
     color: var(--cor1);
     font-size: 45px;
@@ -70,29 +68,26 @@ li {
     padding: 5px;
 }
 
-.tipos {
+.todostipos {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 20px;
+    align-items: flex-start;
+    gap: 10px;
     margin-bottom: 20px;
-    align-items: center;
 }
 
 .telecaster,.lespaul,.stratocaster,.sg,.flyingv,.explorer{
-    border: solid #000000 3px;
+    border: solid var(--cor1) 3px;
     border-radius: 10px;
-    width: 520px;
+    width: 500px;
     max-width: 553px;
+    min-width: 325px;
     margin: auto;
-    height: 420px ;
-
+    height: 400px;
 }
 
-.titulo {
-    font-size: 35px;
-}
 
 #id1,#id2,#id3,#id4,#id5,#id6 {
     max-width: 350px;
