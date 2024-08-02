@@ -16,10 +16,11 @@ nav a {
     color: black;
     align-items: center;
     text-decoration: none;
+
 }
 
 nav {
-    color: rgb(0, 0, 0);
+    color: black;
     display: inline-block;
 }
 
