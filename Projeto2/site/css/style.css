@@ -39,14 +39,9 @@ body {
     font-size: 23px;
     text-align: center;
     width: calc(100% - 30px);
-    padding: 10px;
 
 }
 
-div{
-    padding: 10px;
-
-}
 
 img{
     max-width: 553px;
@@ -82,8 +77,8 @@ li {
     border: solid var(--cor1) 3px;
     border-radius: 10px;
     width: 500px;
-    max-width: 553px;
-    min-width: 325px;
+    max-width: 450px;
+    min-width: 300px;
     margin: auto;
     height: 400px;
 }
