@@ -39,7 +39,7 @@ body {
     font-size: 23px;
     text-align: center;
     width: calc(100% - 30px);
-
+    padding: 6px;
 }
 
 
