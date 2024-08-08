@@ -80,7 +80,8 @@ li {
     max-width: 450px;
     min-width: 300px;
     margin: auto;
-    height: 400px;
+    height: 380px;
+    box-shadow: 0 8px 10px rgb(39, 39, 39);
 }
 
 
@@ -89,4 +90,33 @@ li {
     border-radius: 10px;
     display: block;
     margin: auto;
+}
+
+.todaspartes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.headstock,.tarraxas,.pestana,.braco,.trastesecasas,.corpo,.captadores,.pontes,.chaveseletora,.cordas {
+    border: solid var(--cor1) 3px;
+    border-radius: 10px;
+    width: 280px;
+    max-width: 450px;
+    min-width: 300px;
+    margin: auto;
+    height: 200px;
+    box-shadow: 0 8px 10px rgb(0, 0, 0);
+}
+
+.titulo2 {
+    box-shadow: 0 5px 8px rgb(105, 104, 104);
+}
+
+#p1 {
+    font-size: 24px;
 }
