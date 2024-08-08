@@ -110,7 +110,7 @@ li {
     min-width: 300px;
     margin: auto;
     height: 210px;
-    box-shadow: 0 8px 10px rgb(0, 0, 0);
+    box-shadow: 0 8px 10px var(--cor1);
 }
 
 .titulo2 {
