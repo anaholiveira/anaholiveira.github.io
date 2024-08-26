@@ -26,7 +26,7 @@ footer p{
     margin: auto;
 }
  
-.icons-social{
+.iconsocial{
     width: 28px;
     max-width: 30px;
     min-width: 20px;
@@ -34,7 +34,7 @@ footer p{
     margin-bottom: 0%;
 }
 
-#nav-footer {
+#navfooter {
     display: flex;
     justify-content: center;
 }
