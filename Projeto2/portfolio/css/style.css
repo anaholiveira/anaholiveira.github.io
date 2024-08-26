@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap'); /*Nerko One*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); /*Indie Flower*/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap'); /*Courgette*/
 
 :root {
     --cor1: white;
@@ -38,7 +38,7 @@ h2 {
 }
 
 #p1 {
-    font-size: 3.5vh;
+    font-size: 3vh;
     color: var(--cor1);
     text-align: center;
     width: 100%;
