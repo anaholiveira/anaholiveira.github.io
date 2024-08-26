@@ -1,15 +1,35 @@
+:root {
+    --cor1: white;
+    --cor2: rgba(42, 20, 66, 0.849);
+    --cor3: rgba(72, 34, 112, 0.822);
+}
+
 footer {
-    background-color:rgb(255, 255, 255);;
-    color: black;
+    background-color:var(--cor1);
     text-align: center;
-    padding: 15px 0;
-    position: relative;
-    bottom: 0;
+    padding: 5px 0;
     width: 100%;
     border-radius: 10px;
 }
 
 footer p{
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    display: flexbox;
+    justify-content: center;
+    flex-direction: column;
 }
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+ 
+.icons-social{
+    width: 28px;
+    max-width: 30px;
+    min-width: 20px;
+    padding: 15px;
+}
+

@@ -1,11 +1,18 @@
+:root {
+    --cor1: white;
+    --cor2: rgba(42, 20, 66, 0.849);
+    --cor3: rgba(72, 34, 112, 0.822);
+}
+
 header {
     /* width: 100; */
     height: auto;
     font-weight: bold;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 8px 10px rgb(0, 0, 0);
+    background-color: var(--cor1);
+    box-shadow: 0 8px 10px rgb(87, 14, 136);
     border-radius: 10px;
     /* display: flex; */
+    padding: 4px;
 }
 nav {
     display: flex;
@@ -17,7 +24,6 @@ nav a {
     font-size: 20px;
     color: rgb(77, 73, 73);
     text-decoration: none;
-
 }
 
 .paginas{
