@@ -11,6 +11,7 @@
 
 body{
     background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/1866677-dark-purple-vector-background-with-circles-stars-vetor.jpg);
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -49,34 +50,6 @@ section {
     background-color: var(--cor2);
     width: 85vw;
     height: 65vh;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 40px auto;
-    box-shadow: 0 2px 10px 5px var(--cor3);
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-#sec2 {
-    background-color:rgba(42, 20, 66, 0.959);
-    width: 95vw;
-    height: 35vh;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 40px auto;
-    box-shadow: 0 2px 10px 5px var(--cor3);
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-#sec3 {
-    background-color:rgba(42, 20, 66, 0.959);
-    width: 95vw;
-    height: 35vh;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
