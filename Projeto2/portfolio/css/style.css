@@ -35,6 +35,15 @@ h3 {
     padding: 0;
 }
 
+h6 {
+    color: var(--cor1);
+    font-family: "Nerko One", cursive ;
+    text-align: center;
+    font-size: 35px;
+    margin: auto;
+    padding: auto;
+}
+
 #foto-inicial {
     width: 80%;
     max-width: 600px;
@@ -105,6 +114,20 @@ section {
     padding: 0;
     box-shadow: 0 2px 10px 5px var(--cor3);
 }
+
+.contato{
+    background-color: var(--cor2);
+    width: 85vw;
+    height: 65vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px auto;
+    box-shadow: 0 2px 10px 5px var(--cor3);
+    padding: 20px;
+    box-sizing: border-box;
+}
  
 @media (max-width: 768px) {
     .secoes{
@@ -119,3 +142,47 @@ section {
     }
 }
 
+
+fieldset {
+    border-radius: 20px;
+    border-width: 5px;
+    margin: auto;
+    padding: auto;
+    background-color: var(--cor1);
+}
+
+label {
+    color: rgba(52, 41, 134, 0.904);
+    font-size: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+input {
+    border-radius: 10px;
+    width: 30vw;
+    height: 4vh;
+}
+
+#mensagem {
+    width: 30vw;
+    height: 10vh;
+}
+
+button {
+    background-color: rgb(193, 185, 255);
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    margin: auto;
+}
+
+::placeholder {
+    color: rgb(151, 140, 241);
+
+}
