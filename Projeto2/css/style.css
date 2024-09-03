@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap'); /*Nerko One*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); /*Indie Flower*/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap'); /*Courgette*/
+
+
 table {
     border-collapse: collapse;
     border: 2px solid;
-    width: 20vw;
+    width: 25vw;
     height: 20vh;
-    background-color: rgb(224, 163, 255);
+    background-color: rgba(213, 128, 255, 0.897);
     box-shadow: 4px 9px 12px rgb(46, 7, 78);
     min-width: 310px;
     max-width: 25vw;
@@ -14,10 +19,10 @@ tbody {
     color: rgb(0, 0, 0);
     align-items: center;
     text-align: center;
-    color: rgb(46, 7, 78);
+    color: rgb(52, 0, 95);
     font-weight: bold;
     font-size: 20px;
-    font-family:'Franklin Gothic Medium';
+    font-family:'Courgette', cursive;
 }
 
 td {
@@ -35,17 +40,29 @@ a:hover {
 }
 
 h1 {
+    font-size: 6vh;
+    text-align: center;
+    font-family:'Nerko One', cursive;
+}
+
+h2 {
     font-size: 5vh;
     text-align: center;
-    font-family:cursive;
+    font-family:'Nerko One', cursive;
+}
+
+h3 {
+    font-size: 5vh;
+    text-align: center;
+    font-family:'Nerko One', cursive;
 }
 
 th {
-    font-family:'Courier New';
+    font-family:'Indie Flower', cursive;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 thead {
-    background-color: rgb(176, 124, 202);
+    background-color: rgba(108, 5, 160, 0.411);
 }

@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -12,7 +11,8 @@
 
 </head>
 
-<main>
+<body>
+    
     <header>
             
         <nav>
@@ -24,8 +24,28 @@
         </nav>
 
     </header>
+    <main>
+        <section class="contato">
+            <fieldset>
+                <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
 
-</main>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" placeholder="Digite seu email">
+
+            <label for="mensagem">Mensagem:</label>
+            <input type="text" name="mensagem" id="mensagem" placeholder="Digite uma mensagem">
+
+            <button type="submit">Entrar em contato</button>
+            </fieldset>
+            
+            
+
+        </section>
+
+
+    </main>
+
         
 <footer>
             
@@ -39,8 +59,9 @@
 
     </div>
 
-        <p>Ana Gabriely © 2024</p>
+    <p id="pfooter">©2024 Ana Gabriely Todos os direitos reservados.</p>
 
 </footer>
+</body>
 
 </html>

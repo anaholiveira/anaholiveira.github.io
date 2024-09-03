@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap'); /*Nerko One*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); /*Indie Flower*/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap'); /*Courgette*/
+
 :root {
     --cor1: white;
     --cor2: rgba(42, 20, 66, 0.849);
@@ -12,7 +16,7 @@ header {
     box-shadow: 0 8px 10px rgb(87, 14, 136);
     border-radius: 10px;
     /* display: flex; */
-    padding: 4px;
+    padding: 10px;
 }
 
 nav {
@@ -23,22 +27,22 @@ nav {
 
 nav a {
     font-size: 20px;
-    color: rgb(77, 73, 73);
+    color: rgb(68, 64, 64);
     text-decoration: none;
 }
 
 .paginas{
     display: inline-block;
-    padding: 15px;
+    padding: 13px;
     font-family: papyrus;
 }
 
 a:hover {
-    color: rgb(58, 0, 112);
+    color: rgba(108, 0, 209, 0.61);
 }
 
 iframe {
-    width: 115px;
+    width: 120px;
     height: 45px;
     padding: 10px;
 }

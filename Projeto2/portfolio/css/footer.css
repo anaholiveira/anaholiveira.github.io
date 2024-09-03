@@ -12,12 +12,13 @@ footer {
     border-radius: 10px;
 }
 
-footer p{
+#pfooter{
     font-size: 15px;
     color: black;
     display: flexbox;
     justify-content: center;
     flex-direction: column;
+    font-weight: bold;
 }
 
 .social {
