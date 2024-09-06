@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap'); /* Concert One */
+
 header {
     width: 100%;
     height: auto;
@@ -5,7 +7,7 @@ header {
     background-color: rgb(99, 99, 99);
     box-shadow: 0 8px 10px rgb(218, 218, 218);
     border-radius: 10px;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 nav a {
@@ -25,7 +27,7 @@ nav {
 .paginas{
     display: inline-block;
     padding: 15px;
-    font-family: cursive;
+    font-family: "Concert One", sans-serif;
     margin: 0;
 }
 

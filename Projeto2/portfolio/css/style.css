@@ -10,8 +10,12 @@
 
 
 body{
-    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/1866677-dark-purple-vector-background-with-circles-stars-vetor.jpg); 
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/1866677-dark-purple-vector-background-with-circles-stars-vetor.jpg);
+    background-size:cover;
 }
+
+
+/* PAGINA INICIAL */
 
 h1 {
     color: var(--cor1);
@@ -19,6 +23,42 @@ h1 {
     text-align: center;
     font-size: 40px;
 }
+
+#foto-inicial {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 15px auto 10px;
+    box-shadow: 0 2px 10px 5px var(--cor3);
+}
+
+
+#p1 {
+    font-size: 3vh;
+    color: var(--cor1);
+    text-align: center;
+    width: 100%;
+    font-family: "Indie Flower", cursive;
+}
+
+.secaointro {
+    background-color: var(--cor2);
+    width: 85vw;
+    height: 65vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px auto;
+    box-shadow: 0 2px 10px 5px var(--cor3);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+/* PAGINA SOBRE */
 
 h2 {
     color: var(--cor1);
@@ -33,47 +73,6 @@ h3 {
     font-size: 22px;
     margin: 0;
     padding: 0;
-}
-
-h6 {
-    color: var(--cor1);
-    font-family: "Nerko One", cursive ;
-    text-align: center;
-    font-size: 35px;
-    margin: auto;
-    padding: auto;
-}
-
-#foto-inicial {
-    width: 80%;
-    max-width: 600px;
-    height: auto;
-    border-radius: 20px;
-    display: block;
-    margin: 15px auto 10px;
-    box-shadow: 0 2px 10px 5px var(--cor3);
-}
-
-#p1 {
-    font-size: 3vh;
-    color: var(--cor1);
-    text-align: center;
-    width: 100%;
-    font-family: "Indie Flower", cursive;
-}
-
-section {
-    background-color: var(--cor2);
-    width: 85vw;
-    height: 65vh;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 40px auto;
-    box-shadow: 0 2px 10px 5px var(--cor3);
-    padding: 20px;
-    box-sizing: border-box;
 }
 
 .secoes {
@@ -115,19 +114,6 @@ section {
     box-shadow: 0 2px 10px 5px var(--cor3);
 }
 
-.contato{
-    background-color: var(--cor2);
-    width: 85vw;
-    height: 65vh;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 40px auto;
-    box-shadow: 0 2px 10px 5px var(--cor3);
-    padding: 20px;
-    box-sizing: border-box;
-}
  
 @media (max-width: 768px) {
     .secoes{
@@ -143,46 +129,171 @@ section {
 }
 
 
-fieldset {
+/* PAGINA PROJETOS */
+
+h4 {
+    color: var(--cor1);
+    font-family: "Nerko One", cursive ;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+h5 {
+    color: var(--cor1);
+    font-family: "Nerko One", cursive ;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.secaoprojetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.cardsprojetos {
+    background-color: rgba(42, 20, 66, 0.973);
+    box-shadow: 0 5px 10px 5px var(--cor3);
+    border: solid 2px var(--cor3);
     border-radius: 20px;
-    border-width: 5px;
+    margin: 15px;
+    padding: 20px;
+    width: 290px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.cardsprojetos:hover {
+    transform: scale(1.05);
+}
+
+.fotocards {
+    max-width: 90%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.pcard{
+    color: white;
+    margin-top: auto;
+    font-size: 20px;
+}
+
+
+/* PAGINA CONTATO */
+
+h6 {
+    color: var(--cor1);
+    font-family: "Nerko One", cursive ;
+    text-align: center;
+    font-size: 45px;
+    margin: 15px 0 30px;
+}
+
+.secaocontato {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+form {
+    width: 110%;
+}
+
+fieldset {
+    background-color: var(--cor2);
+    width: 95%;
+    border: 3px solid var(--cor1);
+    padding: 15px;
+    border-radius: 20px;
     margin: auto;
-    padding: auto;
-    background-color: var(--cor1);
+    display: block;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px var(--cor1);
+}
+
+legend {
+    color: var(--cor1);
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Indie Flower", cursive;
+    padding: 0;
 }
 
 label {
-    color: rgba(52, 41, 134, 0.904);
-    font-size: 20px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    color: var(--cor1);
+    margin-top: 15px;
+    display: block;
+    font-size: 1.3em;
+    font-family: "Nerko One", cursive;
+}
+
+input, textarea {
+    font-size: 1em;
+    width: 93%;
+    border: 2px solid var(--cor1) ;
+    border-radius: 12px;
     padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px var(--cor1);
+    font-family: "Nerko One", cursive;
 }
 
-input {
-    border-radius: 10px;
-    width: 30vw;
-    height: 4vh;
-}
-
-#mensagem {
-    width: 30vw;
-    height: 10vh;
+textarea {
+    height: 120px;
 }
 
 button {
-    background-color: rgb(193, 185, 255);
-    width: 20vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 5px;
-    margin: auto;
+    background-color: rgb(151, 140, 241);
+    color: var(--cor1);
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 12px;
+    font-family: "Nerko One", cursive;
+    font-size: 1.1em;
+}
+
+button:hover {
+    background-color: rgb(127, 95, 202);
+    box-shadow: 0 5px 10px  rgb(208, 202, 255);
+    transform: scale(1.01);
 }
 
 ::placeholder {
     color: rgb(151, 140, 241);
+}
 
+
+#ancora {
+    font-size: 20px;
+    background-color: var(--cor1);
+    border-radius: 15px;
+    width: 150px;
+    text-decoration: none;
+    color: rgb(117, 65, 167);
+    box-shadow: 0 3px 6px  rgb(208, 202, 255);
+}
+
+#ancora:hover {
+    transform: scale(1.08);
 }

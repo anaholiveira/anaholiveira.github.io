@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap'); /* Pirata One */
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap'); /* Concert One */
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Merienda:wght@300..900&display=swap'); /* Macondo */
+
 :root {
     --cor1: #000;
     --cor2: #fff;
@@ -7,35 +11,35 @@ h1 {
     color: var(--cor1);
     font-size: 43px;
     text-align: center;
-    font-family:'Franklin Gothic Medium';
+    font-family:"Pirata One", system-ui;
     margin-top: 5px;
     
 }
 
 h2 {
     color: var(--cor1);
-    font-size: 35px;
-    font-family:'Franklin Gothic Medium';
+    font-size: 40px;
+    font-family:"Pirata One", system-ui;
 }
 
 h3 {
     color: var(--cor1);
-    font-size: 29px;
-    font-family:'Franklin Gothic Medium';
+    font-size: 35px;
+    font-family:"Pirata One", system-ui;
     margin-top: 20px;
 }
 
 h4 {
     color: var(--cor1);
-    font-size: 28px;
-    font-family:'Franklin Gothic Medium';
+    font-size: 35px;
+    font-family:"Pirata One", system-ui;
     margin-top: 20px;
 }
 
 h5 {
     color: var(--cor1);
     font-size: 30px;
-    font-family:'Franklin Gothic Medium';
+    font-family:"Pirata One", system-ui;
     margin: auto;
 }
 
@@ -47,6 +51,7 @@ body {
     text-align: center;
     width: calc(100% - 30px);
     padding: 6px;
+    font-family: "Concert One", sans-serif;
 }
 
 img{
@@ -82,10 +87,9 @@ span {
     max-width: 450px;
     min-width: 300px;
     margin: auto;
-    height: 390px;
+    height: 410px;
     box-shadow: 0 8px 10px rgb(39, 39, 39);
 }
-
 
 #id1,#id2,#id3,#id4,#id5,#id6 {
     max-width: 350px;
@@ -94,31 +98,54 @@ span {
     margin: auto;
 }
 
-.todaspartes {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 50px;
-    margin-bottom: 30px;
-}
-
-.headstock,.tarraxas,.pestana,.braco,.trastesecasas,.corpo,.captadores,.pontes,.chaveseletora,.cordas {
-    border: solid var(--cor1) 3px;
-    border-radius: 10px;
-    width: 280px;
-    max-width: 450px;
-    min-width: 300px;
-    margin: auto;
-    height: 210px;
-    box-shadow: 0 8px 10px var(--cor1);
-}
-
-.titulo2 {
-    box-shadow: 0 5px 8px rgb(105, 104, 104);
-}
-
 #p1 {
-    font-size: 25px;
+    font-size: 3.5vh;
+}
+
+table{
+    border-collapse: collapse;
+    border: solid, 2px var(--cor2);
+    background-color: rgba(128, 128, 128, 0.678);
+    width: 90vw;
+    max-width: 90vw;
+    max-height: 70vw;
+    height: 65vh;
+    margin: auto;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 10px rgb(209, 209, 209);
+}
+
+thead{
+    height: 6vh;
+    background-color: rgba(0, 0, 0, 0.788);
+}
+
+th{
+    color: var(--cor2);
+    border: solid, 2px var(--cor2);
+    font-size: 3vh;
+    max-height: 3vh;
+    min-height: 2.5vh;
+    font-weight: bold;
+}
+
+td{
+    border: solid, 1px var(--cor2);
+    text-align: center;
+    font-size: 3vh;
+    max-height: 3vh;
+    min-height: 2.5vh;
+    padding: 20px;
+}
+
+tr{
+    border: solid, 1px var(--cor2);
+}
+
+table tr:nth-child(even){
+    background-color:  rgba(185, 185, 185, 0.719);
+}
+
+.partes {
+    font-weight: bold;
 }
