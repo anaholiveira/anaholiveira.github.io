@@ -168,12 +168,13 @@ h5 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s;
     margin-bottom: 20px;
 }
 
 .cardsprojetos:hover {
     transform: scale(1.05);
+    box-shadow: 0 3px 8px 3px rgb(206, 155, 255);
 }
 
 .fotocards {
@@ -181,14 +182,30 @@ h5 {
     height: auto;
     border-radius: 15px;
     margin-bottom: 15px;
+    box-shadow: 0 2px 10px 5px var(--cor3);
 }
 
 .pcard{
     color: white;
     margin-top: auto;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: "Indie Flower", cursive;
 }
 
+#ancora {
+    font-size: 20px;
+    background-color: var(--cor1);
+    border-radius: 15px;
+    width: 150px;
+    text-decoration: none;
+    color: rgb(117, 65, 167);
+    box-shadow: 0 2px 4px  rgb(208, 202, 255);
+}
+
+#ancora:hover {
+    transform: scale(1.08);
+    box-shadow: 0 3px 6px  rgb(208, 202, 255);
+}
 
 /* PAGINA CONTATO */
 
@@ -281,19 +298,4 @@ button:hover {
 
 ::placeholder {
     color: rgb(151, 140, 241);
-}
-
-
-#ancora {
-    font-size: 20px;
-    background-color: var(--cor1);
-    border-radius: 15px;
-    width: 150px;
-    text-decoration: none;
-    color: rgb(117, 65, 167);
-    box-shadow: 0 3px 6px  rgb(208, 202, 255);
-}
-
-#ancora:hover {
-    transform: scale(1.08);
 }
